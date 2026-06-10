@@ -1,0 +1,3 @@
+scheme	structure	energy_type	energy_kcal_mol	note
+rnastr-deigan	mfe	efn2	1	RNAstructure efn2 with SHAPE pseudoenergies
+rnastr-deigan	mea	efn2	1	RNAstructure efn2 with SHAPE pseudoenergies

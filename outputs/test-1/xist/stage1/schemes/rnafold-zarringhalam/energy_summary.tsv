@@ -1,0 +1,4 @@
+scheme	structure	energy_type	energy_kcal_mol	note
+rnafold-zarringhalam	mfe	RNAfold_MFE	-265.22	ViennaRNA RNAfold stdout
+rnafold-zarringhalam	ensemble	RNAfold_ensemble	-286.25	frequency of mfe structure in ensemble 1.51409e-15; ensemble diversity 130.11
+rnafold-zarringhalam	mea	RNAfold_MEA_score	1404.56	MEA score, not an energy

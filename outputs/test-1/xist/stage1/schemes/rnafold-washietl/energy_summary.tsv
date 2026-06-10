@@ -1,0 +1,4 @@
+scheme	structure	energy_type	energy_kcal_mol	note
+rnafold-washietl	mfe	RNAfold_MFE	-2779.64	ViennaRNA RNAfold stdout
+rnafold-washietl	ensemble	RNAfold_ensemble		frequency of mfe structure in ensemble -nan; ensemble diversity nan
+rnafold-washietl	mea	RNAfold_MEA_score	nan	MEA score, not an energy

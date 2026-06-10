@@ -1,0 +1,18 @@
+{
+  "actual_dataset": "Busan et al. 2019 E. coli 16S rRNA cell-free SHAPE-MaP",
+  "case": "xist",
+  "generated_at": "2026-06-10T21:28:29.307303+00:00",
+  "input_profile": "inputs/test-1/xist/raw/Ecoli_cellfree_16S_1M7_profile.txt",
+  "output_root": "outputs/test-1/xist/stage1",
+  "reagent": "1M7",
+  "schemes": [
+    "rnastr-deigan",
+    "rnafold-deigan",
+    "rnafold-zarringhalam",
+    "rnafold-washietl"
+  ],
+  "stage": 1,
+  "test": "test-1",
+  "washietl_numeric_warning": true,
+  "washietl_sample_size": 5
+}

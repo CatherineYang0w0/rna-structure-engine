@@ -1,0 +1,4 @@
+scheme	structure	energy_type	energy_kcal_mol	note
+rnafold-deigan	mfe	RNAfold_MFE	-1161.92	ViennaRNA RNAfold stdout
+rnafold-deigan	ensemble	RNAfold_ensemble	-1179.29	frequency of mfe structure in ensemble 5.79567e-13; ensemble diversity 103.60
+rnafold-deigan	mea	RNAfold_MEA_score	1432.29	MEA score, not an energy

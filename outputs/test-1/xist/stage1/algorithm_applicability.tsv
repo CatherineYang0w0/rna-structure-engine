@@ -1,0 +1,25 @@
+scheme	algorithm	status	reason
+rnastr-deigan	MFE/Fold	done	
+rnastr-deigan	partition	done	
+rnastr-deigan	MEA	done	
+rnastr-deigan	efn2_or_ensemble_energy	done	
+rnastr-deigan	Shannon_entropy	done	
+rnastr-deigan	ProbKnot	deferred_to_stage_3	ProbKnot is an RNAstructure partition consumer and is planned for the pseudoknot phase.
+rnafold-deigan	MFE/Fold	done	
+rnafold-deigan	partition	done	
+rnafold-deigan	MEA	done	
+rnafold-deigan	efn2_or_ensemble_energy	done	
+rnafold-deigan	Shannon_entropy	done	
+rnafold-deigan	ProbKnot	N/A	RNAfold cannot represent pseudoknots.
+rnafold-zarringhalam	MFE/Fold	done	
+rnafold-zarringhalam	partition	done	
+rnafold-zarringhalam	MEA	done	
+rnafold-zarringhalam	efn2_or_ensemble_energy	done	
+rnafold-zarringhalam	Shannon_entropy	done	
+rnafold-zarringhalam	ProbKnot	N/A	RNAfold cannot represent pseudoknots.
+rnafold-washietl	MFE/Fold	done	
+rnafold-washietl	partition	done_with_numeric_warning	RNApvmin/RNAfold Washietl ensemble output contains NaN with the bounded sample-size setting; MFE structure is still emitted.
+rnafold-washietl	MEA	done_with_numeric_warning	RNApvmin/RNAfold Washietl ensemble output contains NaN with the bounded sample-size setting; MFE structure is still emitted.
+rnafold-washietl	efn2_or_ensemble_energy	done_with_numeric_warning	RNApvmin/RNAfold Washietl ensemble output contains NaN with the bounded sample-size setting; MFE structure is still emitted.
+rnafold-washietl	Shannon_entropy	done_with_numeric_warning	RNApvmin/RNAfold Washietl ensemble output contains NaN with the bounded sample-size setting; MFE structure is still emitted.
+rnafold-washietl	ProbKnot	N/A	RNAfold cannot represent pseudoknots.

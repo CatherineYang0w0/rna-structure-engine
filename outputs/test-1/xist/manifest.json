@@ -1,0 +1,26 @@
+{
+  "actual_dataset": "Busan et al. 2019 E. coli 16S rRNA cell-free SHAPE-MaP",
+  "case": "xist",
+  "generated_at": "2026-06-10T20:08:52.717711+00:00",
+  "input_profile": "inputs/test-1/xist/raw/Ecoli_cellfree_16S_1M7_profile.txt",
+  "outputs": {
+    "converted_profile": "outputs/test-1/xist/prepared/ecoli_16s_cellfree_1m7_rnastr-deigan.converted.tsv",
+    "ct": "outputs/test-1/xist/ecoli_16s_cellfree_1m7_rnastr-deigan.ct",
+    "dot_bracket": "outputs/test-1/xist/ecoli_16s_cellfree_1m7_rnastr-deigan.dbn",
+    "entropy": "outputs/test-1/xist/ecoli_16s_cellfree_1m7_rnastr-deigan.shannon_entropy.tsv",
+    "fasta": "outputs/test-1/xist/prepared/ecoli_16s_cellfree_1m7_rnastr-deigan.fa",
+    "mfe_structure_png": "outputs/test-1/xist/ecoli_16s_cellfree_1m7_rnastr-deigan.mfe_structure.png",
+    "mfe_structure_svg": "outputs/test-1/xist/ecoli_16s_cellfree_1m7_rnastr-deigan.mfe_structure.svg",
+    "pairing_probability": "outputs/test-1/xist/ecoli_16s_cellfree_1m7_rnastr-deigan.pairing_probability.txt",
+    "partition": "outputs/test-1/xist/ecoli_16s_cellfree_1m7_rnastr-deigan.pfs",
+    "reactivity_entropy_png": "outputs/test-1/xist/ecoli_16s_cellfree_1m7_rnastr-deigan.reactivity_entropy.png",
+    "reactivity_entropy_svg": "outputs/test-1/xist/ecoli_16s_cellfree_1m7_rnastr-deigan.reactivity_entropy.svg",
+    "shape": "outputs/test-1/xist/prepared/ecoli_16s_cellfree_1m7_rnastr-deigan.shape"
+  },
+  "reagent": "1M7",
+  "scheme": "rnastr-deigan",
+  "shape_intercept": -0.6,
+  "shape_slope": 1.8,
+  "stage": 0,
+  "test": "test-1"
+}
