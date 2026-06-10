@@ -4,6 +4,21 @@ Testing different RNA secondary structure prediction tools based on probing wet-
 
 Generic RNA secondary structure prediction engine. Stage 0 currently runs one RNAstructure/Deigan line on the `test-1/xist` case slot, populated with Busan et al. 2019 *E. coli* 16S rRNA cell-free SHAPE-MaP positive-control data.
 
+## Current Status
+
+Stage 0 is on the `test-1/xist` slot, using Busan 2019 *E. coli* 16S rRNA SHAPE-MaP positive-control data from `inputs/test-1/xist/raw/` and writing results to `outputs/test-1/xist/`.
+
+Current scope: RNAstructure `Fold` + `partition` + Shannon entropy only, with Deigan parameters fixed at `m = 1.8` and `b = -0.6`. Structure plots use RNAstructure `draw`, and the profile figure is rendered in pure Python without matplotlib.
+
+## Project Log
+
+2026-06-11
+
+- Done: wired Stage 0 to the Busan 2019 16S SHAPE-MaP positive-control input.
+- Done: switched structure plotting to RNAstructure `draw` and profile plotting to pure Python PNG/SVG.
+- Note: `WASHIETL_SAMPLE_SIZE=5` is the engineering default for later Stage 1 work; it can trigger `done_with_numeric_warning` on ViennaRNA Washietl outputs, so invalid Washietl MEA values are excluded from consistency comparisons.
+- Next: finish 16S validation, then extend the same SHAPE workflow to the Busan 2019 *E. coli* 23S rRNA data.
+
 ## Run
 
 Stage 0:
